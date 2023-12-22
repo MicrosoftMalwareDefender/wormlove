@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 	"time"
-	"github.com/MicrosoftMalwareDefender/miniature-octo-parakeet"
+	"github.com/MicrosoftMalwareDefender/packages"
 )
 
 var (
